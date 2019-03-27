@@ -1,0 +1,20 @@
+refazer do 2 ao 10 - AQUI - OKAYS: 2, 3, 4, 5, 6, 7, 8, 9, 10
+
+11 - repetir o melhor e mudar o otimizador sgd - AQUI - OKAY
+12 - sgd com lr 0.001 (descer 1 do padrão) - AQUI - OKAY
+13 - sgd com lr 0.1 (subir 1 do padrão) - AQUI - OKAY
+14 - sgd com lr 0.1 e decay 0.001 - AQUI - OKAY
+14 - sgd com lr 0.1 e decay 0.01 - AQUI - OKAY
+
+15 - repetir o melhor e diminuir epocas (25) - AQUI - OKAY
+16 - repetir o melhor (15) e diminuir epocas (37 = 50 + 25 /2) - AQUI - OKAY
+17 - repetir o melhor (15) aumentar epocas (75) - AQUI - OKAY
+18 - repetir o melhor (15) aumentar epocas (100) - AQUI - OKAY
+
+19 - repetir melhor e avgpolling - AQUI - OKAY
+
+20 - pegar o melhor e aplicar dropout de 0.3 (em todas as camadas de conv) - AQUI - OKAY
+
+21 - pegar o melhor e aplicar dropout de 0.5 (em todas as camadas de conv) - AQUI - OKAY
+
+22 - pegar o melhor e mandar um data augmentation - AQUI - MAS NÃO FIZ
